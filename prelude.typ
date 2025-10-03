@@ -116,7 +116,6 @@
     block(inset: (left: 1.25cm), it)
   }
   show heading.where(depth: 1): it => {
-    pagebreak()
     align(center)[
       #it
     ]
